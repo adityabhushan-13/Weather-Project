@@ -96,62 +96,62 @@ function print_details(data) {
       console.log(time);
       if(time>=6 && time<18){ 
         if(data.weather[0].description=="clear sky"){ 
-          document.getElementById("description_icon") .innerHTML=`<img class="imic" src="/Weather-Project/images/01d@2x.png">`;
+          document.getElementById("description_icon") .innerHTML=`<img class="imic" src="/images/01d@2x.png">`;
         }else if(data.weather[0].description=="few clouds"){ 
-          document.getElementById("description_icon") .innerHTML=`<img class="imic" src="/Weather-Project/images/02d@2x.png">`;
+          document.getElementById("description_icon") .innerHTML=`<img class="imic" src="/images/02d@2x.png">`;
           // 2 
         }else if(data.weather[0].description=="scattered clouds"){ 
-          document.getElementById("description_icon") .innerHTML=`<img class="imic" src="/Weather-Project/images/03d@2x.png">`;
+          document.getElementById("description_icon") .innerHTML=`<img class="imic" src="/images/03d@2x.png">`;
           // 3 
         }else if(data.weather[0].description=="broken clouds"){ 
-          document.getElementById("description_icon") .innerHTML=`<img class="imic" src="/Weather-Project/images/04d@2x.png">`;
+          document.getElementById("description_icon") .innerHTML=`<img class="imic" src="/images/04d@2x.png">`;
           // 4 
         }else if(data.weather[0].description=="shower rain"){ 
-          document.getElementById("description_icon") .innerHTML=`<img class="imic" src="/Weather-Project/images/09d@2x.png">`;
+          document.getElementById("description_icon") .innerHTML=`<img class="imic" src="/images/09d@2x.png">`;
           // 9 
         }else if(data.weather[0].description=="rain"){ 
-          document.getElementById("description_icon") .innerHTML=`<img class="imic" src="/Weather-Project/images/10d@2x.png">`;
+          document.getElementById("description_icon") .innerHTML=`<img class="imic" src="/images/10d@2x.png">`;
           // 10 
         }else if(data.weather[0].description=="thunderstorm"){ 
-          document.getElementById("description_icon") .innerHTML=`<img class="imic" src="/Weather-Project/images/11d@2x.png">`;
+          document.getElementById("description_icon") .innerHTML=`<img class="imic" src="/images/11d@2x.png">`;
           // 11 
         }else if(data.weather[0].description=="snow"){ 
-          document.getElementById("description_icon") .innerHTML=`<img class="imic" src="/Weather-Project/images/13d@2x.png">`;
+          document.getElementById("description_icon") .innerHTML=`<img class="imic" src="/images/13d@2x.png">`;
           // 13 
         }else if(data.weather[0].description=="mist"){ 
-          document.getElementById("description_icon") .innerHTML=`<img class="imic" src="/Weather-Project/images/50d@2x.png">`;
+          document.getElementById("description_icon") .innerHTML=`<img class="imic" src="/images/50d@2x.png">`;
           // 50 
         }else if(data.weather[0].description=="haze"){
-          document.getElementById("description_icon") .innerHTML=`<img class="imic" src="/Weather-Project/images/02d@2x.png">`;
+          document.getElementById("description_icon") .innerHTML=`<img class="imic" src="/images/02d@2x.png">`;
           //new image
         }
       }else{ 
         if(data.weather[0].description=="clear sky"){ 
-          document.getElementById("description_icon") .innerHTML=`<img class="imic" src="/Weather-Project/images/01n@2x.png">`;
+          document.getElementById("description_icon") .innerHTML=`<img class="imic" src="/images/01n@2x.png">`;
           // 1 
         }else if(data.weather[0].description=="few clouds"){ 
-          document.getElementById("description_icon") .innerHTML=`<img class="imic" src="/Weather-Project/images/02n@2x.png">`;
+          document.getElementById("description_icon") .innerHTML=`<img class="imic" src="/images/02n@2x.png">`;
           // 2 
         }else if(data.weather[0].description=="scattered clouds"){ 
-          document.getElementById("description_icon") .innerHTML=`<img class="imic" src="/Weather-Project/images/03n@2x.png">`;
+          document.getElementById("description_icon") .innerHTML=`<img class="imic" src="/images/03n@2x.png">`;
           // 3 
         }else if(data.weather[0].description=="broken clouds"){ 
-          document.getElementById("description_icon") .innerHTML=`<img class="imic" src="/Weather-Project/images/04n@2x.png">`;
+          document.getElementById("description_icon") .innerHTML=`<img class="imic" src="/images/04n@2x.png">`;
           // 4 
         }else if(data.weather[0].description=="shower rain"){ 
-          document.getElementById("description_icon") .innerHTML=`<img class="imic" src="/Weather-Project/images/09n@2x.png">`;
+          document.getElementById("description_icon") .innerHTML=`<img class="imic" src="/images/09n@2x.png">`;
           // 9 
         }else if(data.weather[0].description=="rain"){ 
-          document.getElementById("description_icon") .innerHTML=`<img class="imic" src="/Weather-Project/images/10n@2x.png">`;
+          document.getElementById("description_icon") .innerHTML=`<img class="imic" src="/images/10n@2x.png">`;
           // 10 
         }else if(data.weather[0].description=="thunderstorm"){ 
-          document.getElementById("description_icon") .innerHTML=`<img class="imic" src="/Weather-Project/images/11n@2x.png">`;
+          document.getElementById("description_icon") .innerHTML=`<img class="imic" src="/images/11n@2x.png">`;
           // 11 
         }else if(data.weather[0].description=="snow"){ 
-          document.getElementById("description_icon") .innerHTML=`<img class="imic" src="/Weather-Project/images/13n@2x.png">`;
+          document.getElementById("description_icon") .innerHTML=`<img class="imic" src="/images/13n@2x.png">`;
           // 13 
         }else if(data.weather[0].description=="mist"){ 
-          document.getElementById("description_icon") .innerHTML=`<img class="imic" src="/Weather-Project/images/50n@2x.png">`;
+          document.getElementById("description_icon") .innerHTML=`<img class="imic" src="/images/50n@2x.png">`;
           // 50 
         } 
       } 
