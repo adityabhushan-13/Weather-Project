@@ -1,4 +1,7 @@
+
+
 // Get the input field
+
 const cityInput = document.querySelector("#city");
 
 // Get the submit button
