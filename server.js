@@ -20,7 +20,6 @@ submitBtn.addEventListener("click", function (event) {
   fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=b0022d29684849d1a9346729cde03ef0`)
     .then(response => response.json())
     .then(data => {
-      console.log(data);
       print_details(data);
     })
 
@@ -93,8 +92,7 @@ function print_details(data) {
       `;
        fetch(`https://api.ipgeolocation.io/timezone?apiKey=42f69e7bb91947bc99311b5b9ffeb49c&lat=${data.coord.lat}&long=${data.coord.lon}`) 
     .then(response => response.json()) 
-    .then(data2 => { 
-      console.log(data2); 
+    .then(data2 => {  
       var time=data2.time_24[0] + data2.time_24[1]; 
       console.log(time);
       if(time>=6 && time<18){ 
